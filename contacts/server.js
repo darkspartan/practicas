@@ -70,6 +70,6 @@ app.delete('/contacts/:id',function(req,res){
 	});
 });
 
-app.listen(5000);
+app.listen(80);
 console.log('Magic is happening on port 5000');
 
