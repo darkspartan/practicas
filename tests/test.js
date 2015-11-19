@@ -1,5 +1,6 @@
 exports.config={
 	seleniumAddress: 'http://localhost:4444/wd/hub',
+
 	specs:[
 		'e2e/TC01-loadData.js',
 		'e2e/TC02-insertContacts.js',
